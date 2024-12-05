@@ -1,0 +1,149 @@
+body {
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #333;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: black;
+    color: white;
+    min-height: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .nav-link {
+    margin: 0 10px;
+}
+
+.header-left-column .logo img {
+    height: 40px;
+}
+
+.header-center-column .link-explore {
+    margin: 0 10px;
+    font-size: 14px;
+    cursor: pointer;
+    color: yellow;
+    text-transform: uppercase;
+}
+
+.header-center-column .links-wrapper {
+    display: flex;
+}
+
+.header-center-column .nav-link a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.header-center-column .link-spark a {
+    color: gray;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.header-right-column {
+    display: flex;
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    margin: 16px
+}
+
+.header-right-column .nav-link {
+    margin: 0 10px;
+}
+
+.header-right-column .nav-link a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.header-right-column .icom {
+    margin-right: 10px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 16px;
+    margin: 36px;
+}
+
+.main-left-column {    
+    font-size: 24px;
+    color: gray;
+}
+
+.main-left-column-buttons {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 35px;
+}
+
+footer {
+    background-color: #1e1e1e;
+    min-height: 25px;
+    display: flex;
+    justify-content: space-around;
+    border: 3px solid gray;
+}
+
+footer .separator {
+    border-right: 3px solid gray;
+}
+
+.btn {
+    background-color: gray;
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 8px 8px 8px 8px;
+}
+
+.btn:hover {
+    background-color: rgb(66, 65, 65);
+}
+
+.btn-green {
+    border: none;
+    color: black;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+btn-green:hover {
+    background-color: greenyellow;
+}
+
+.btn-black {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-black:hover {
+    background-color: gray;
+}
+
+
+
+
+
+
